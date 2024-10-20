@@ -28,7 +28,7 @@ var app = new function() {
     {name: "06_Da_Bass", color: "#03f0fc", uniqsnd: !1},
     {name: "07_Bass", color: "#03f0fc", uniqsnd: !1},
     {name: "09_Kesh", color: "#03f0fc", uniqsnd: !0},
-    {name: "10_DROP", color: "#03f0fc", uniqsnd: !1},
+    {name: "10_DROP", color: "#03f0fc", uniqsnd: !0},
     {name: "11_Flutter", color: "#03f0fc", uniqsnd: !1}], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
