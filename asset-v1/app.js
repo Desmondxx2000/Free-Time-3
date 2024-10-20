@@ -27,9 +27,11 @@ var app = new function() {
     {name: "03_More_Buh", color: "#03f0fc", uniqsnd: !0},
     {name: "06_Da_Bass", color: "#03f0fc", uniqsnd: !1},
     {name: "07_Bass", color: "#03f0fc", uniqsnd: !1},
+    {name: "08_Flutt", color: "#03f0fc", uniqsnd: !0},
     {name: "09_Kesh", color: "#03f0fc", uniqsnd: !0},
     {name: "10_DROP", color: "#03f0fc", uniqsnd: !0},
-    {name: "11_Flutter", color: "#03f0fc", uniqsnd: !1}], this.bonusarray = [];
+    {name: "11_Flutter", color: "#03f0fc", uniqsnd: !1},
+    {name: "12_Omnis", color: "#03f0fc", uniqsnd: !0}], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
         this.animearray[n].soundA = a + "_a", 
