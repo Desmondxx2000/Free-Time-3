@@ -1,10 +1,10 @@
 var app = new function() {
-    this.name = "Alpha", 
-    this.version = "1",
-    this.date = "2009", 
+    this.name = "Free Time 3", 
+    this.version = "3",
+    this.date = "2024", 
     this.folder = "asset-v1/", 
-    this.looptime = 5333,
-    this.bpm = 90, 
+    this.looptime = 15333,
+    this.bpm = 176, 
     this.totalframe = 260, 
     this.nbpolo = 7, 
     this.nbloopbonus = 2, 
@@ -21,7 +21,15 @@ var app = new function() {
     this.col2 = "#4b4b4b", 
     this.col3 = "#373737", 
     this.col4 = "#232323", 
-    this.animearray = [], this.bonusarray = [];
+    this.animearray = [
+    {name: "01_Bits", color: "#03f0fc", uniqsnd: !0},
+    {name: "02_Buh", color: "#03f0fc", uniqsnd: !0},
+    {name: "03_More_Buh", color: "#03f0fc", uniqsnd: !0},
+    {name: "06_Da_Bass", color: "#03f0fc", uniqsnd: !1},
+    {name: "07_Bass", color: "#03f0fc", uniqsnd: !1},
+    {name: "09_Kesh", color: "#03f0fc", uniqsnd: !0},
+    {name: "10_DROP", color: "#03f0fc", uniqsnd: !1},
+    {name: "11_Flutter", color: "#03f0fc", uniqsnd: !1}], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
         this.animearray[n].soundA = a + "_a", 
