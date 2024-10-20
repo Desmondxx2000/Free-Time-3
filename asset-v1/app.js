@@ -22,7 +22,7 @@ var app = new function() {
     this.col3 = "#373737", 
     this.col4 = "#232323", 
     this.animearray = [
-    {name: "01_Bits", color: "#03f0fc", uniqsnd: !0},
+    {name: "01_Bits", color: "#03f0fc", uniqsnd: !1},
     {name: "02_Buh", color: "#03f0fc", uniqsnd: !0},
     {name: "03_More_Buh", color: "#03f0fc", uniqsnd: !0},
     {name: "06_Da_Bass", color: "#03f0fc", uniqsnd: !1},
